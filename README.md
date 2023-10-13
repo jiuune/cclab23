@@ -1,9 +1,10 @@
 # juneCClab
 
-here you can see my code: 
+here you can see my code: [https://github.io/jiuune/cclab23] and this is the live version on GitHub Pages:
 
-this is the root, or very base of my cclab folder ! 
+https://jiuune.github.io/cclab23
 
+this is the root, or very base of my cclab folder 
 
 if you see this on a URL that looks like 
 
