@@ -8,7 +8,7 @@ let scubaY = 580;
 let scubaMove = 3;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(600, 500);
   background('#BCCEA7C6');
   
   for (let i = 0; i < bubbleAmount; i+=1 ){
