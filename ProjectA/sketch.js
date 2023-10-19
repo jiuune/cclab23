@@ -4,17 +4,17 @@ let bubbleAmount = 100;
 let octopiAmount = 5;
 let octX = 0;
 let scubaX = 100;
-let scubaY = 580;
+let scubaY = 480;
 let scubaMove = 3;
 
 function setup() {
-  createCanvas(600, 500);
+  createCanvas(700, 500);
   background('#BCCEA7C6');
   
   for (let i = 0; i < bubbleAmount; i+=1 ){
     let bubble = {
-      x: random(0, 600), 
-      y: 600 - 10 , 
+      x: random(0, 700), 
+      y: 500 - 10 , 
       dia: random(10, 70), 
       speed: random(1, 10)
     };
@@ -23,8 +23,8 @@ function setup() {
   
   for (let i = 0; i < octopiAmount; i++) {
     octopi.push({
-      x: random(0, 600),
-      y: random(0, 600),
+      x: random(0, 700),
+      y: random(0, 500),
       dia: random(20, 50)
     });
   }
@@ -46,10 +46,10 @@ function draw() {
   }
   
   //placed here so text is behind some bubbles 
-  textSize(20);
-  text("OCTOPUS ESCAPE!!!", 600/2.5, 50);
-  textSize(15);
-  text("pop the bubbles so that scuba divers can take a clear picture of the octopi!", 600/5, 70);
+  // textSize(20);
+  // text("OCTOPUS ESCAPE!!!", 700/2.5, 50);
+  // textSize(15);
+  // text("pop the bubbles so that scuba divers can take a clear picture of the octopi!", 700/5, 70);
   
   //second half bubbleAmount in the back
   for(let i = bubbles.length / 2; i < bubbles.length; i++) {
@@ -84,8 +84,8 @@ function drawBubble(bubble) {
   
   //re-appear
   if(bubble.y < -100){
-    bubble.x = random(0, 600);
-    bubble.y = 600 + 200;
+    bubble.x = random(0, 700);
+    bubble.y = 500 + 200;
   }
   pop();
 }
@@ -235,9 +235,9 @@ function scubaDiver() {
   //movement - up & down 
   scubaY = scubaY + scubaMove;  
   
-  if(scubaY > 600 + 580) {
+  if(scubaY > 500 + 480) {
     scubaMove = -4;
-  } else if(scubaY < 0 + 580) {
+  } else if(scubaY < 0 + 480) {
     scubaMove = 4;
   }
   
