@@ -99,3 +99,17 @@ h4 {
     margin: auto;
     position: relative;
 }
+
+.decline-button {
+    background-color:pink;
+    border-color: pink;
+    font-family: 'Cherry Cream Soda';
+    font-size: 20px;
+    width: 150px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 150px;
+    display: block; 
+    margin: auto;
+    position: relative;
+}
