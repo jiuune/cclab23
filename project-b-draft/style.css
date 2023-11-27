@@ -1,0 +1,101 @@
+/* index.html */ 
+body {
+    background-image: url(images/partybackground.png);
+}
+
+h2 {
+    font-family: 'Elsie Swash Caps';
+    font-size: 50px;
+    color: rgb(91, 28, 28);
+    text-align: center;
+
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.banner img {
+    width: 400px;
+    height: 150px;
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+  }
+
+.decorations {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+.balloons img {
+    margin-left: 50px;
+    width:250px;
+    height:400px;
+  }
+
+.presents img {
+    width: 150px;
+    height: 150px;
+    margin-top: 250px;
+    margin-left: -100px;
+}
+
+.dogs img{
+    margin-left: 200px;
+    width:400px;
+    height: 400px;
+}
+
+.enter-button {
+    background-color:pink;
+    border-color: pink;
+    font-family: 'Cherry Cream Soda';
+    font-size: 20px;
+    width: 100px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+/* prompt.html */
+
+body prompt.html{
+    background-image: url(images/partybackground.png);
+}
+
+.instructions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invitation img {
+    width:200px;
+    height:250px;
+    display: block; 
+    margin: auto;
+    position: relative;
+}
+
+h4 {
+    font-family: 'Italiana';
+    text-align: center;
+    font-size: 20px;
+}
+
+.accept-button {
+    background-color:pink;
+    border-color: pink;
+    font-family: 'Cherry Cream Soda';
+    font-size: 20px;
+    width: 150px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 150px;
+    display: block; 
+    margin: auto;
+    position: relative;
+}
