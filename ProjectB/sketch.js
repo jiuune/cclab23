@@ -19,6 +19,8 @@ let chosenActivity;
 let choosingState = true;
 let counter = 0; 
 let newbackground;
+let nightclub; 
+let warehouse;
 
 let djset;
 let playlist;
@@ -54,6 +56,8 @@ function preload(){
   }
 
   newbackground = loadImage("images/newbackground.png");
+  nightclub = loadImage("images/nightclub.jpeg");
+  warehouse = loadImage("images/warehouse.jpg");
 
   djset = loadSound("audio/peggygou.m4a");
   playlist = loadSound("audio/cafune.mp3");
@@ -82,7 +86,12 @@ function draw() {
 
   //new background if user chooses the right must-have items 
   if(counter == 4 && stage > 3){
+    image(nightclub, 0, 0, 1000, 550);
     image(newbackground, 0, 0, 1000, 550);
+  }
+
+  if(counter < 4 && stage > 3) {
+    image(warehouse, 0, 0, 1000, 550);
   }
 
   for(let i = 0; i < backgrounds.length; i++) {
@@ -129,7 +138,7 @@ function draw() {
   //if users don't choose must-have items they recieve this message 
   if(counter < 4 && stage > 3) {
     textSize(30);
-    fill('red');
+    fill('white');
     text("You failed!! Time to file for bankruptcy!", 1.5 * width/6, 50);
   }
 }
