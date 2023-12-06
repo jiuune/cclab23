@@ -13,18 +13,14 @@ function preload(){
         console.log(path);
 
         fruitImages[i] = loadImage(path); 
-
     }
-
 }
-
 
 function setup(){   
     let cnv = createCanvas(800, 400);
     cnv.parent("canvasWrapper");
 
     for(let i = 0; i < numAtoms; i++){
-
         let ran = floor(random(0, 3));
         atoms.push(new Atom(fruitImages[ran]))
      }
@@ -95,7 +91,7 @@ class Atom{
             this.x = width + 100;
         }else{
             this.x = - 100;
-        }
+        } 
 
         this.isTouched = false;
         this.isOnCanvas = true;

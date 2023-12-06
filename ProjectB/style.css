@@ -1,0 +1,170 @@
+/* index.html */ 
+body {
+    background-image: url(images/webpage/partybackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner img {
+    width: 33%;
+    height: 150px;
+    max-width: 100%;
+    height: auto;
+  }
+
+.index-title {
+    font-family: 'Elsie Swash Caps';
+    font-size: 35px;
+    color: rgb(91, 28, 28);
+    text-align: center;
+    width:100%;
+}
+
+.enter-button {
+    width: 100%;
+    text-align: center;  
+}
+
+.enter-button button{
+    background-color:pink;
+    border-color: pink;
+    font-family: 'Cherry Cream Soda';
+    font-size: 20px;
+    width: 150px;
+    height:80px;
+}
+
+.deco-wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.deco-wrapper img{
+    width:100%;
+}
+.decorations-left{
+    width:50%;
+    max-width: 400px;
+  }
+
+.decorations-right{
+    width:50%; 
+    max-width: 400px; 
+}
+
+
+/* prompt.html */
+body prompt.html{
+    background-image: url(images/partybackground.png);
+}
+
+.instructions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invitation img {
+    width:200px;
+    height:250px;
+    display: block; 
+    margin: auto;
+    position: relative;
+}
+
+h4 {
+    font-family: 'Italiana';
+    text-align: center;
+    font-size: 20px;
+}
+
+.accept-button {
+    background-color:pink;
+    border-color: pink;
+    font-family: 'Cherry Cream Soda';
+    font-size: 20px;
+    width: 150px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 150px;
+    display: block; 
+    margin: auto;
+    position: relative;
+}
+
+.decline-button {
+    background-color:pink;
+    border-color: pink;
+    font-family: 'Cherry Cream Soda';
+    font-size: 20px;
+    width: 150px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 150px;
+    display: block; 
+    margin: auto;
+    position: relative;
+}
+
+/* instructions.html */
+
+.instruction-prompt{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Italiana';
+    font-size: 18px;
+}
+
+.rules {
+    width: 100%;
+    text-align: center;   
+    font-family: 'Aboreto'
+}
+
+.itemlist{
+    border-radius: 20px;
+    display:inline-block;
+    text-align: left;
+    background-color: white;
+    width:400px;
+    height: 180px;
+}
+
+.start-button{
+    width: 100%;
+    text-align: center;
+} 
+
+.start-button button {
+    background-color:pink;
+    border-color: pink;
+    font-family: 'Cherry Cream Soda';
+    font-size: 20px;
+    width: 150px;
+    height:80px;
+}
+
+/* p5 canvas*/
+#canvasWrapper {
+    text-align: center;
+}
+
+.canvasText {
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.bolded {
+    font-weight: bold;
+    color:rgb(122, 4, 4);
+}

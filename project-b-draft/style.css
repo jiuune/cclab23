@@ -1,67 +1,67 @@
 /* index.html */ 
 body {
     background-image: url(images/partybackground.png);
-}
-
-h2 {
-    font-family: 'Elsie Swash Caps';
-    font-size: 50px;
-    color: rgb(91, 28, 28);
-    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 
 }
 
-.banner {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
 .banner img {
-    width: 400px;
+    width: 33%;
     height: 150px;
-    flex: 1;
     max-width: 100%;
     height: auto;
   }
 
-.decorations {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-
-.balloons img {
-    margin-left: 50px;
-    width:250px;
-    height:400px;
-  }
-
-.presents img {
-    width: 150px;
-    height: 150px;
-    margin-top: 250px;
-    margin-left: -100px;
-}
-
-.dogs img{
-    margin-left: 200px;
-    width:400px;
-    height: 400px;
+.index-title {
+    font-family: 'Elsie Swash Caps';
+    font-size: 35px;
+    color: rgb(91, 28, 28);
+    text-align: center;
+    width:100%;
 }
 
 .enter-button {
+    width: 100%;
+    text-align: center;  
+}
+
+.enter-button button{
     background-color:pink;
     border-color: pink;
     font-family: 'Cherry Cream Soda';
     font-size: 20px;
-    width: 100px;
-    height: 80px;
-    margin-left: 250px;
-    margin-top: 150px;
+    width: 150px;
+    height:80px;
 }
 
-/* prompt.html */
+.deco-wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
 
+.deco-wrapper img{
+    width:100%;
+}
+.decorations-left{
+    width:50%;
+    max-width: 400px;
+  }
+
+.decorations-right{
+    width:50%; 
+    max-width: 400px; 
+}
+
+
+/* prompt.html */
 body prompt.html{
     background-image: url(images/partybackground.png);
 }
