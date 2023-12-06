@@ -231,11 +231,11 @@ class BackgroundImage {
   }
 
   increaseSize() {
-    this.scale += 0.25;
+    this.scale += 0.2;
   }
 
   decreaseSize() {
-    this.scale -= 0.25;
+    this.scale -= 0.2;
   }
 
   display() {
